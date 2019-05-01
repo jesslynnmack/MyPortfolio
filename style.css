@@ -1,3 +1,37 @@
-.portfolio-photo{
+p {
+    font-size: 1rem;
+}
+h2, h5, p {
+    text-align: center;
+}
+
+
+.jumbotron-content{
+    align-content: center;
+}
+/* .portfolio-photo{
     border-radius: 50%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+} */
+div .progress .progress-box{
+    height:50px;
+}
+.progress .progress-title{
+    height: 100%;
+    font-size: 1rem;
+    position: absolute;
+    left: 0px;
+    background-color: rgba(12, 12, 12, 0.274);
+    padding: .2rem;
+    padding-left: .7rem;
+    padding-right: .7rem;
+
+}
+
+.progress .progress-percent {
+    line-height:30px;
+    color:rgba(0, 0, 0, 0.5);
+    margin-right: 10px;
 }

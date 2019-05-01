@@ -1,6 +1,8 @@
 
+
+
 var i = 0;
-var txt = 'WEB DESIGNER + FRONT END DEVELOPER'; /* The text */
+var txt = 'WEB DESIGNER + FULL STACK DEVELOPER'; /* The text */
 var speed = 50; /* The speed/duration of the effect in milliseconds */
 
 function typeWriter() {
