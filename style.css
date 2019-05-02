@@ -1,20 +1,58 @@
-p {
-    font-size: 1rem;
+body {
+    font-family: 'Raleway', sans-serif !important;
 }
+.container {
+    width: 75%;
+}
+
+h1, h2 {
+    color: #FF6363;
+    font-weight: bold;
+}
+
+p {
+    font-size: 20px;
+    color: #484848;
+}
+
 h2, h5, p {
     text-align: center;
 }
 
-
-.jumbotron-content{
-    align-content: center;
+nav{
+    background-color: transparent !important;
 }
-/* .portfolio-photo{
-    border-radius: 50%;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
-} */
+.jumbotron {
+    padding: 50em inherit;
+    background-image: url("file:///Users/jessicamccormack/Dropbox/Authentic%20Design%20Co.%20Branding/Stock%20Photos/08.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.fa-chevron-down {
+    color: #FF6363 !important;
+    bottom: 10px;
+    cursor: pointer;
+    -webkit-transition: 1.2s ease;
+    padding-top: 16rem;
+}
+
+#about-me{
+    padding-top: 4rem;
+}
+#about-me p{
+    padding: 2rem;
+}
+#technologies{
+    padding-top: 4rem;
+}
+#projects{
+    padding-top: 4rem;
+}
+#connect{
+    padding-top: 4rem;
+}
 div .progress .progress-box{
     height:50px;
 }
@@ -34,4 +72,11 @@ div .progress .progress-box{
     line-height:30px;
     color:rgba(0, 0, 0, 0.5);
     margin-right: 10px;
+}
+
+.technology-icons{
+    text-align: center;
+}
+.technology-icons i {
+    padding: 1.5rem;
 }
